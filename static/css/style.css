@@ -1,0 +1,48 @@
+/* Base htmlt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login {
+    height: 100vh;
+    width: 100vw;
+    background-color: #323945;
+}
+
+
+/* Logos */
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.logos .image .primera{
+    width: 110px;
+    height: 50px;
+}
+
+
+.logos .imagen2 .segunda{
+    width: 110px;
+    height: 50px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;   
+    color: white; 
+    
+}
+
+.cuadrologin{
+    background-color:  #323945;
+    padding-top: 100px;
+}
+
+.user .e{
+    color: white;
+    size: 1000px;
+    padding: 20px;
+}
