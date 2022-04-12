@@ -7,7 +7,7 @@ from utils.db import db
 
 app = Flask(__name__)
 
-app.config.from_object("config.Baseconfig")
+app.config.from_object("config.BaseConfig")
 
 SQLAlchemy(app)
 Bcrypt(app)
